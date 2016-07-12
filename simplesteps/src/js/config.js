@@ -32,21 +32,21 @@ module.exports = [
         "type": "color",
         "messageKey": "BorderColour",
 				"sunlight": false,
-        "defaultValue": "0xFFFFFF",
+        "defaultValue": "0x000000",
         "label": "Border Color"
       },
       {
         "type": "color",
         "messageKey": "TimeColour",
 				"sunlight": false,
-        "defaultValue": "0xFFFFFF",
+        "defaultValue": "0x000000",
         "label": "Time Text Color"
       },
       {
         "type": "color",
         "messageKey": "StepsColour",
 				"sunlight": false,
-        "defaultValue": "0xFFFFFF",
+        "defaultValue": "0x000000",
         "label": "Steps Text Color"
       }
     ]
