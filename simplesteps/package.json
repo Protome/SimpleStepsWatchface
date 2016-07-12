@@ -1,0 +1,53 @@
+{
+    "author": "kieran.bamford@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "simplesteps",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health"
+        ],
+        "displayName": "Simple Steps",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "BackgroundColour",
+            "StripeColour",
+            "BorderColour",
+            "TimeColour",
+            "StepsColour",
+            "StepsText"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Screenshot1",
+                    "menuIcon": true,
+                    "name": "SCREENSHOT_1",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/perfect-dos-vga.ttf",
+                    "name": "RESOURCE_ID_FONT_PERFECT_DOS_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "94a8af25-f9d2-4a31-8a5b-11b52012b02a",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
